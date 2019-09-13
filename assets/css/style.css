@@ -1,0 +1,14 @@
+.background {
+    text-align: center;
+    background-image: url(http://wonderworldcomics.com/wp-content/uploads/2013/08/197017_3551286680084_37091580_n.jpg);
+}
+.body {
+    height: 600px;
+    width: 75%;
+    background-color: #5C7486;
+    position: relative;
+    display: inline-block;
+}
+.title {
+    color: #C9BF9D;
+}
