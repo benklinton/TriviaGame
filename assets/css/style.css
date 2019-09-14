@@ -12,3 +12,26 @@
 .title {
     color: #C9BF9D;
 }
+
+.start-button {
+    position: relative;
+    width: 20%;
+    height: 10%;
+    font-size: x-large;
+    background-color: #155D1A;
+    top: 150px;
+    border: none;
+}
+.timer {
+    color: white;
+}
+
+.answer-button {
+    position: relative;
+    border: none;
+    width: 20%;
+    height: 10%;
+    font-size: x-large;
+    background-color: #5C7486;
+    
+}
