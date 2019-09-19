@@ -187,7 +187,7 @@ var gameMehcanic = function () {
                 questionNum++
                 missed++
                 terminate();
-                var wrongAnswer = $("<h2>").text("Nope: Scarecrow");
+                var wrongAnswer = $("<h2>").text("Nope: Bats");
                 wrongAnswer.addClass("clear")
                 var img = $("<img>");
                 img.addClass("img")
@@ -210,7 +210,7 @@ var gameMehcanic = function () {
         var question = $("<h2>").text("Who is the most mentally stable of Batmans foes");
         $(".body").append(question);
         $(question).addClass("question");
-        answers = ["The Riddler", "Catwomen", "Penguin", "Harley Quinn"]
+        answers = ["The Riddler", "The Joker", "Penguin", "Harley Quinn"]
         for (var i = 0; i < answers.length; i++) {
             var buttons = $("<button>").text(answers[i]);
             buttons.addClass("answer-button")
@@ -234,7 +234,7 @@ var gameMehcanic = function () {
                 questionNum++
                 missed++
                 terminate();
-                var wrongAnswer = $("<h2>").text("Nope: Scarecrow");
+                var wrongAnswer = $("<h2>").text("Nope: Penguin");
                 wrongAnswer.addClass("clear")
                 var img = $("<img>");
                 img.addClass("img")
